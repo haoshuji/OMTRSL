@@ -1,0 +1,161 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=mex 2015.10.20)  13 DEC 2015 10:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SOD.c
+(./SOD.c
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+
+Overfull \hbox (44.13538pt too wide) in paragraph at lines 1--4
+[]\tenrm /* * =============================================================|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+
+Overfull \hbox (154.27304pt too wide) in paragraph at lines 5--14
+[]\tenrm * in-put: x,a,b * x : ma-trix DxN * a : vec-tor 1xnn * b : vec-tor 1xn
+n * * out-put: for i=1:nn; res=res+(x(:,a(i))-x(:,b(i)))*(x(:,a(i))-x(:,b(i)))'
+;end;|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm i
+.\tenrm n
+.etc.
+
+
+Overfull \hbox (19.13536pt too wide) in paragraph at lines 5--14
+\tenrm * * =============================================================|
+
+\hbox(7.5+0.0)x469.75499, glue set - 1.0
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm =
+.etc.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.17 #
+      include "mex.h"
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.18 #
+      include <string.h>
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.21  * compile this example using the flag -DNAN_
+                                                  EQUALS_ZERO. For
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.28 
+     
+? 
+
+Overfull \hbox (183.87474pt too wide) in paragraph at lines 20--28
+\tenrm -DNAN$[]\teni QUALS[]ERO:For \tensy ^^C \teni example \tenrm : \tensy ^^
+C ^^C \teni mex \tensy ^^@ \teni DNAN[]QUALS[]EROfindnz:c \tensy ^^C ^^C\teni T
+hiswillcorrectlydefinetheIsNonZeromacroforyourcompiler: \tensy ^^C|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm -
+.\discretionary
+.\tenrm D
+.\tenrm N
+.\tenrm A
+.etc.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.29 #
+      if NAN_EQUALS_ZERO
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.29 #if NAN_
+             EQUALS_ZERO
+? 
+! You can't use `macro parameter character #' in math mode.
+l.30 #
+      define IsNonZero(d) ((d) != 0.0 || mxIsNaN(d))
+? 
+! You can't use `macro parameter character #' in math mode.
+l.31 #
+      else
+? 
+! You can't use `macro parameter character #' in math mode.
+l.32 #
+      define IsNonZero(d) ((d) != 0.0)
+? 
+! You can't use `macro parameter character #' in math mode.
+l.33 #
+      endif
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.34 
+     
+? 
+
+Overfull \hbox (6.45633pt too wide) in paragraph at lines 29--34
+[]\tenrm if NAN$[]\teni QUALS[]EROdefineIsNonZero\tenrm (\teni d\tenrm )((\teni
+ d\tenrm )! = 0\teni :\tenrm 0\tensy jj\teni mxIsNaN\tenrm (\teni d\tenrm ))\te
+ni elsedefineIsNonZero\tenrm (\teni d\tenrm )((\teni d\tenrm )! =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm N
+.etc.
+
+! Undefined control sequence.
+l.81 ...oth index vectors must have same length!\n
+                                                  ");
+? 
+
+Overfull \hbox (6.25992pt too wide) in paragraph at lines 91--97
+[]\tenrm /* Cre-ate out-put ma-trix */ plhs[0]=mxCreateDoubleMatrix(m,m,mxREAL)
+; C=mxGetPr(plhs[0]); mem-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm C
+.etc.
+
+! Misplaced alignment tab character &.
+l.101    v1=&
+             X[(int) (av[i]-1)*m];
+? 
+! Misplaced alignment tab character &.
+l.102    v2=&
+             X[(int) (bv[i]-1)*m];
+? 
+
+Overfull \hbox (18.68936pt too wide) in paragraph at lines 114--120
+[]\tenrm /* fill in 
